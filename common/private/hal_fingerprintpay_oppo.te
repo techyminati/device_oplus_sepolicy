@@ -1,0 +1,8 @@
+# Define hal_fingerprint_oppo domain
+type hal_fingerprintpay_oppo, domain;
+type hal_fingerprintpay_oppo_exec, exec_type, vendor_file_type, file_type;
+hal_server_domain(hal_fingerprintpay_oppo, hal_fingerprint)
+init_daemon_domain(hal_fingerprintpay_oppo)
+
+# Allow hal_fingerprintpay_oppo to set oplus_rpmb_enable_state_prop
+set_prop(hal_fingerprintpay_oppo, oplus_rpmb_enable_state_prop)

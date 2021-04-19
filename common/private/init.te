@@ -1,0 +1,2 @@
+# Allow init to binder call hwservicemanager
+allow init hwservicemanager:binder call;

@@ -1,0 +1,5 @@
+# DCS
+allow system_server commondcs_hwservice:hwservice_manager find;
+
+# Fingerprint
+add_hwservice(system_server, fwk_fingerprint_hwservice)

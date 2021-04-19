@@ -1,0 +1,8 @@
+# Define self_init domain
+type self_init, domain;
+type self_init_exec, exec_type, vendor_file_type, file_type;
+init_daemon_domain(self_init)
+
+# Dontaudit self_init to read system file and properties
+dontaudit self_init system_file:file r_file_perms;
+dontaudit self_init system_prop:file r_file_perms;

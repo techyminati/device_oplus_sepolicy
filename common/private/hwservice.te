@@ -1,0 +1,5 @@
+# DCS
+type commondcs_hwservice, hwservice_manager_type;
+
+# Fingerprint
+type fwk_fingerprint_hwservice, hwservice_manager_type;

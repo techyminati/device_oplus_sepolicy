@@ -1,0 +1,9 @@
+# Define hal_fingerprint_oppo domain
+type hal_fingerprint_oppo, domain;
+type hal_fingerprint_oppo_exec, exec_type, vendor_file_type, file_type;
+hal_server_domain(hal_fingerprint_oppo, hal_fingerprint)
+init_daemon_domain(hal_fingerprint_oppo)
+
+# Allow hal_fingerprint_oppo to read and set oppo_fingerprint_prop
+get_prop(hal_fingerprint_oppo, oppo_fingerprint_prop)
+set_prop(hal_fingerprint_oppo, oppo_fingerprint_prop)

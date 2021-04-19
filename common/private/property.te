@@ -1,0 +1,8 @@
+# Fingerprint
+type oppo_fingerprint_prop, property_type;
+
+# OPPO
+type vendor_oppo_prop, property_type;
+
+# RPMB
+type oplus_rpmb_enable_state_prop, property_type;
