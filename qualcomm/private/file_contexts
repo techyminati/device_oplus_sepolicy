@@ -1,0 +1,3 @@
+# NV
+/data/opponvitems(/.*)?  u:object_r:nv_data_file:s0
+/cache/opponvitems(/.*)? u:object_r:nv_data_file:s0

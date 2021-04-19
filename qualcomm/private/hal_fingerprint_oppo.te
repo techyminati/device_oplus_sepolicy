@@ -1,0 +1,5 @@
+# Allow hal_fingerprint_oppo to read vendor_xdsp_device files
+allow hal_fingerprint_oppo vendor_xdsp_device:chr_file r_file_perms;
+
+# Allow hal_fingerprint_oppo to read vendor_adsprpc_prop properties
+get_prop(hal_fingerprint_oppo, vendor_adsprpc_prop)
