@@ -1,0 +1,2 @@
+# DCS
+allow hal_camera_default commondcs_hwservice:hwservice_manager find;
