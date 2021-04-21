@@ -1,0 +1,3 @@
+# Network
+oppo.eng.factory.no        u:object_r:oplus_network_prop:s0
+sys.oppo.network.rffeature u:object_r:oplus_network_prop:s0

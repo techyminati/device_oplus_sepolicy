@@ -1,0 +1,1 @@
+genfscon proc /devinfo/lcd u:object_r:devinfo_lcd_proc:s0
